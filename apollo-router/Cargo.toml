@@ -41,7 +41,7 @@ derive_more = { version = "0.99.17", default-features = false, features = [
 ] }
 directories = "4.0.1"
 displaydoc = "0.2"
-envmnt = "0.9.1"
+envmnt = "0.10.0"
 futures = { version = "0.3.21", features = ["thread-pool"] }
 hex = "0.4.3"
 hotwatch = "0.4.6"
@@ -114,7 +114,7 @@ sys-info = "0.9.1"
 thiserror = "1.0.31"
 tokio = { version = "1.18.2", features = ["full"] }
 tokio-util = { version = "0.7.1", features = ["net", "codec"] }
-tonic = { version = "0.6.2", features = ["transport", "tls"] }
+tonic = { version = "0.7.2", features = ["transport", "tls"] }
 tower = { version = "0.4.12", features = ["full"] }
 tower-http = { version = "0.3.3", features = ["trace", "cors", "compression-br", "compression-deflate", "compression-gzip", "decompression-br", "decompression-deflate", "decompression-gzip"] }
 tower-service = "0.3.1"
